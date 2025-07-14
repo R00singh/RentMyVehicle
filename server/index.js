@@ -6,6 +6,7 @@ const dotenv = require("dotenv");
 const usersRoute = require("./routes/usersRoute");
 const carsRoute = require("./routes/carsRoute");
 const bookingRouter= require("./routes/bookingRoute");
+
 mongoose.set('strictQuery', true);
 dotenv.config();
 const port = process.env.PORT || 5000;
